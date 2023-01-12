@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(247, 242, 242);
+}
+
+.grid{
+
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-gap: 1rem;
+}
+
+.grid >div{
+
+  
+    border:1px solid rgb(164, 159, 159);
+    background-color: rgb(231, 229, 222);
+    font-size:25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 3rem;
+
+}
+main{
+    display:grid;
+    grid-template-columns:  3fr 1fr;
+}
